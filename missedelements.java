@@ -51,11 +51,12 @@ public class missedelements{
             return;
         }
 
-        System.out.println("Missing elements are:");
+        System.out.println("Missing elements are: ");
         for(int k=0; k<MissedCount; k++)
         {
             System.out.println(missedEles[k]);
         }
     }
 }
+
 
