@@ -20,6 +20,7 @@ public class missedelements{
             if(max < arr[i])
                 max = arr[i];
         }
+        System.out.println("Maximum element:"+max);
         
         int [] flag = new int[max+1];
 
